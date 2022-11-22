@@ -1,13 +1,48 @@
 *{
   box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif
+}
+main{
+  margin: 0 auto;
 }
 header{
-  background-color: aqua;
+  background-color: rgb(27, 109, 210);
+  padding: 15px;
+  color: white;
+}
+article{
+  background-color: bisque;
+  margin: 0 auto;
 }
 section-1{
   padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: center;
+  color: white;
+  
 }
-box-1{
+.box-1{
   background-color: greenyellow;
+  flex: 0 0 350px;
+  border: 4px solid white;
 }
-footer{background-color: blue;}
+.box-2{
+  background-color: pink;
+  flex: 0 0 250px;
+  border: 4px solid white;
+}
+.box-3{
+  background-color: orange;
+  flex: 0 0 300px;
+  border: 4px solid white;
+}
+.box-4{
+  background-color: orange;
+  flex: 0 0 300px;
+  border: 4px solid white;
+}
+footer{background-color: blue;
+padding: 15px;
+color: white;}
