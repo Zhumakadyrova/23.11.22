@@ -4,11 +4,14 @@
 }
 main{
   margin: 0 auto;
+  border: 3px solid gray;
+  height: 500px;
 }
 header{
   background-color: rgb(27, 109, 210);
   padding: 15px;
   color: white;
+  height: 100px;
 }
 article{
   background-color: bisque;
@@ -18,31 +21,32 @@ section-1{
   padding: 8px;
   display: flex;
   flex-wrap: wrap;
-  height: 200px;
+  height: 400px;
   justify-content: center;
   color: white;
   
 }
 .box-1{
   background-color: greenyellow;
-  flex: 0 0 350px;
+  flex: 1 1 65%;
   border: 4px solid white;
 }
 .box-2{
   background-color: pink;
-  flex: 0 0 250px;
+  flex: 1 1 30%;
   border: 4px solid white;
 }
 .box-3{
   background-color: orange;
-  flex: 0 0 300px;
+  flex: 1 1 45%;
   border: 4px solid white;
 }
 .box-4{
   background-color: orange;
-  flex: 0 0 300px;
+  flex: 1 1 45%;
   border: 4px solid white;
 }
 footer{background-color: blue;
 padding: 15px;
-color: white;}
+color: white;
+height: 100px;}
