@@ -6,6 +6,8 @@ main{
   margin: 0 auto;
   border: 3px solid gray;
   height: 500px;
+  max-width: 700px;
+  height: 615px;
 }
 header{
   background-color: rgb(27, 109, 210);
